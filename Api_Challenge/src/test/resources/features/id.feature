@@ -7,7 +7,7 @@ Feature: id
     Given that I want to find a song by id
 
   @HappyPath
-  Scenario Outline:
+  Scenario Outline: Song request from existing ID "<ID>"
     When I request the song with the id "<ID>"
     Then I can see the song with the name "<name>"
   Examples:
@@ -27,7 +27,7 @@ Feature: id
 
 
     @SadPath
-    Scenario Outline:
+    Scenario Outline: Song request from not existing ID "<ID>"
       When I request the song with the id "<ID>"
       Then I can not see the song that belong to that id
       Examples:

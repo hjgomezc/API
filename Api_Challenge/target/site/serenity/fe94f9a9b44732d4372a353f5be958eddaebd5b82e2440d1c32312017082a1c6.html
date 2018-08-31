@@ -2,7 +2,7 @@
 <html>
 <head>
     <meta charset="UTF-8"/>
-    <title>Songs from non existent genre</title>
+    <title>Song request from not existing ID</title>
 <link rel="shortcut icon" type="image/x-icon" href="/favicon.ico">
 <link rel="apple-touch-icon" sizes="57x57" href="/apple-icon-57x57.png">
 <link rel="apple-touch-icon" sizes="60x60" href="/apple-icon-60x60.png">
@@ -56,8 +56,8 @@
         <span class="breadcrumbs">
             <a href="index.html" class="breadcrumbs">Home</a>
 
-            > <a href="fdb9f447ef5ec39059e3e9f7e4f700a80423950e2a58145af0cb7c0670161e9b.html">Genre</a>
-        > Songs from non existent genre
+            > <a href="3de8f040670c1ded9e3f23c9eb8597e8dab00a6d4418c9ff8191af4b01f474fd.html">Id</a>
+        > Song request from not existing ID
         </span>
         </div>
         <div class="rightbg"></div>
@@ -93,13 +93,13 @@
                             <div>
                                 <h3 class="discreet-story-header">
                                     <i class="fa fa-2x fa-comments-o"></i>
-                                    <span class="story-header-title">Genre </span>
+                                    <span class="story-header-title">Id </span>
                                 </h3>
 
                                 <div class="discreet-requirement-narrative-title">
                                 As a user
-I want to search the song's by genre
-so that I can know the songs that belong to a genre
+I want to search songs by id
+so that i can see which song belong to an id
                                 </div>
                             </div>
 
@@ -123,7 +123,7 @@ so that I can know the songs that belong to a genre
                             <span class="outcome-icon"><i class='fa fa-check-square-o success-icon fa-2x' title='SUCCESS'></i></span>
                             <span class="test-case-title">
                                     <span class="success-color">
-                                    Songs from non existent genre
+                                    Song request from not existing ID
                                         <span class="related-issue-title"></span>
                                 </span>
                             </span>
@@ -139,7 +139,7 @@ so that I can know the songs that belong to a genre
     <div class="story-title">
         <h3 class="story-header">Scenario Outline</h3>
 
-        <div class="scenario">When I request to see the "&lt;genres&gt;" songs<br>Then I can see that there are no songs that belong to this genre</div>
+        <div class="scenario">When I request the song with the id "&lt;ID&gt;"<br>Then I can not see the song that belong to that id</div>
 
     </div>
 
@@ -157,18 +157,18 @@ so that I can know the songs that belong to a genre
                 <thead>
                 <tr>
                     <th>#</th>
-                        <th>Genres</th>
+                        <th>ID</th>
                 </tr>
                 </thead>
                 <tbody>
                     <tr>
                         <td class="test-SUCCESS"><a href="#0">1</a></td>
-                            <td class="test-SUCCESS"><a href="#0">rock</a>
+                            <td class="test-SUCCESS"><a href="#0">0</a>
                             </td>
                     </tr>
                     <tr>
                         <td class="test-SUCCESS"><a href="#1">2</a></td>
-                            <td class="test-SUCCESS"><a href="#1">rap</a>
+                            <td class="test-SUCCESS"><a href="#1">13</a>
                             </td>
                     </tr>
                 </tbody>
@@ -205,14 +205,14 @@ so that I can know the songs that belong to a genre
                             <a href="javaScript:void(0)" onClick="toggleDiv('stepSection0')"
                                style="display:block;">
                             <span class="top-level-step">
-                                Songs from non existent genre #1: {genres=rock}
+                                Song request from not existing ID #1: {ID=0}
                             </span>
                             </a>
 
                         </div>
                     </td>
                     <td width="100"><span class="top-level-step">SUCCESS</span></td>
-                    <td width="100"><span class="top-level-step">0.49s</span></td>
+                    <td width="100"><span class="top-level-step">0.07s</span></td>
                 </tr>
                     <tr>
                     <td colspan="5">
@@ -227,13 +227,13 @@ so that I can know the songs that belong to a genre
                     <td>
                         <div class="step-description">
                             <span class="nested-group-step">
-                                Given that I want to filter the songs by genre
+                                Given that I want to find a song by id
                             </span>
 
                         </div>
                     </td>
                     <td width="100"><span class="nested-group-step">SUCCESS</span></td>
-                    <td width="100"><span class="nested-group-step">0s</span></td>
+                    <td width="100"><span class="nested-group-step">0.01s</span></td>
                 </tr>
                 <tr class="test-SUCCESS">
                     <td width="60" class="step-icon">
@@ -244,13 +244,13 @@ so that I can know the songs that belong to a genre
                     <td>
                         <div class="step-description">
                             <span class="nested-step">
-                                When I request to see the "rock" songs
+                                When I request the song with the id "0"
                             </span>
 
                         </div>
                     </td>
                     <td width="100"><span class="nested-step">SUCCESS</span></td>
-                    <td width="100"><span class="nested-step">0.48s</span></td>
+                    <td width="100"><span class="nested-step">0.06s</span></td>
                 </tr>
                 <tr class="test-SUCCESS">
                     <td width="60" class="step-icon">
@@ -261,7 +261,7 @@ so that I can know the songs that belong to a genre
                     <td>
                         <div class="step-description">
                             <span class="nested-group-step">
-                                GET http://localhost:7070/kafka-music/charts/genre/rock
+                                GET http://localhost:7070/kafka-music/song/0
                             </span>
 
                                 <span class="rest-query">
@@ -281,7 +281,7 @@ so that I can know the songs that belong to a genre
                                         aria-label="Close"><span aria-hidden="true">&times;</span>
                                 </button>
                                 <h4 class="modal-title" id="restModalLabel">
-                                GET http://localhost:7070/kafka-music/charts/genre/rock
+                                GET http://localhost:7070/kafka-music/song/0
                                 </h4>
                             </div>
                             <div class="modal-body">
@@ -294,9 +294,9 @@ so that I can know the songs that belong to a genre
                                     <h5>Request Cookies</h5>
                                     <pre></pre>
                                     <h5>Response Headers</h5>
-                                    <pre>Date: Fri, 31 Aug 2018 14:12:00 GMT<br>Cache-Control: must-revalidate,no-cache,no-store<br>Content-Type: text/html; charset=ISO-8859-1<br>Content-Length: 307<br>Server: Jetty(9.2.z-SNAPSHOT)</pre>
+                                    <pre>Date: Fri, 31 Aug 2018 14:12:02 GMT<br>Cache-Control: must-revalidate,no-cache,no-store<br>Content-Type: text/html; charset=ISO-8859-1<br>Content-Length: 296<br>Server: Jetty(9.2.z-SNAPSHOT)</pre>
                                 <h5>Response Body</h5>
-                                    <pre>&lt;html&gt;<br>  &lt;head&gt;<br>    &lt;meta http-equiv=&quot;Content-Type&quot; content=&quot;text/html;charset=ISO-8859-1&quot;/&gt;<br>    &lt;title&gt;Error 404 &lt;/title&gt;<br>  &lt;/head&gt;<br>  &lt;body&gt;<br>    &lt;h2&gt;HTTP ERROR: 404&lt;/h2&gt;<br>    &lt;p&gt;Problem accessing /kafka-music/charts/genre/rock. Reason:<br>&lt;/p&gt;<br>    &lt;pre&gt;    Not Found&lt;/pre&gt;<br>    &lt;hr/&gt;<br>    &lt;i&gt;<br>      &lt;small&gt;Powered by Jetty://&lt;/small&gt;<br>    &lt;/i&gt;<br>  &lt;/body&gt;<br>&lt;/html&gt;</pre>
+                                    <pre>&lt;html&gt;<br>  &lt;head&gt;<br>    &lt;meta http-equiv=&quot;Content-Type&quot; content=&quot;text/html;charset=ISO-8859-1&quot;/&gt;<br>    &lt;title&gt;Error 404 &lt;/title&gt;<br>  &lt;/head&gt;<br>  &lt;body&gt;<br>    &lt;h2&gt;HTTP ERROR: 404&lt;/h2&gt;<br>    &lt;p&gt;Problem accessing /kafka-music/song/0. Reason:<br>&lt;/p&gt;<br>    &lt;pre&gt;    Not Found&lt;/pre&gt;<br>    &lt;hr/&gt;<br>    &lt;i&gt;<br>      &lt;small&gt;Powered by Jetty://&lt;/small&gt;<br>    &lt;/i&gt;<br>  &lt;/body&gt;<br>&lt;/html&gt;</pre>
                                     <h5>Response Cookies</h5>
                                     <pre></pre>
                             </div>
@@ -324,7 +324,7 @@ so that I can know the songs that belong to a genre
                     <td>
                         <div class="step-description">
                             <span class="nested-group-step">
-                                Then I can see that there are no songs that belong to this genre
+                                Then I can not see the song that belong to that id
                             </span>
 
                         </div>
@@ -350,14 +350,14 @@ so that I can know the songs that belong to a genre
                             <a href="javaScript:void(0)" onClick="toggleDiv('stepSection1')"
                                style="display:block;">
                             <span class="top-level-step">
-                                Songs from non existent genre #2: {genres=rap}
+                                Song request from not existing ID #2: {ID=13}
                             </span>
                             </a>
 
                         </div>
                     </td>
                     <td width="100"><span class="top-level-step">SUCCESS</span></td>
-                    <td width="100"><span class="top-level-step">0.07s</span></td>
+                    <td width="100"><span class="top-level-step">0.05s</span></td>
                 </tr>
                     <tr>
                     <td colspan="5">
@@ -372,13 +372,13 @@ so that I can know the songs that belong to a genre
                     <td>
                         <div class="step-description">
                             <span class="nested-group-step">
-                                Given that I want to filter the songs by genre
+                                Given that I want to find a song by id
                             </span>
 
                         </div>
                     </td>
                     <td width="100"><span class="nested-group-step">SUCCESS</span></td>
-                    <td width="100"><span class="nested-group-step">0.01s</span></td>
+                    <td width="100"><span class="nested-group-step">0s</span></td>
                 </tr>
                 <tr class="test-SUCCESS">
                     <td width="60" class="step-icon">
@@ -389,13 +389,13 @@ so that I can know the songs that belong to a genre
                     <td>
                         <div class="step-description">
                             <span class="nested-step">
-                                When I request to see the "rap" songs
+                                When I request the song with the id "13"
                             </span>
 
                         </div>
                     </td>
                     <td width="100"><span class="nested-step">SUCCESS</span></td>
-                    <td width="100"><span class="nested-step">0.06s</span></td>
+                    <td width="100"><span class="nested-step">0.05s</span></td>
                 </tr>
                 <tr class="test-SUCCESS">
                     <td width="60" class="step-icon">
@@ -406,7 +406,7 @@ so that I can know the songs that belong to a genre
                     <td>
                         <div class="step-description">
                             <span class="nested-group-step">
-                                GET http://localhost:7070/kafka-music/charts/genre/rap
+                                GET http://localhost:7070/kafka-music/song/13
                             </span>
 
                                 <span class="rest-query">
@@ -426,7 +426,7 @@ so that I can know the songs that belong to a genre
                                         aria-label="Close"><span aria-hidden="true">&times;</span>
                                 </button>
                                 <h4 class="modal-title" id="restModalLabel">
-                                GET http://localhost:7070/kafka-music/charts/genre/rap
+                                GET http://localhost:7070/kafka-music/song/13
                                 </h4>
                             </div>
                             <div class="modal-body">
@@ -439,9 +439,9 @@ so that I can know the songs that belong to a genre
                                     <h5>Request Cookies</h5>
                                     <pre></pre>
                                     <h5>Response Headers</h5>
-                                    <pre>Date: Fri, 31 Aug 2018 14:12:00 GMT<br>Cache-Control: must-revalidate,no-cache,no-store<br>Content-Type: text/html; charset=ISO-8859-1<br>Content-Length: 306<br>Server: Jetty(9.2.z-SNAPSHOT)</pre>
+                                    <pre>Date: Fri, 31 Aug 2018 14:12:02 GMT<br>Cache-Control: must-revalidate,no-cache,no-store<br>Content-Type: text/html; charset=ISO-8859-1<br>Content-Length: 297<br>Server: Jetty(9.2.z-SNAPSHOT)</pre>
                                 <h5>Response Body</h5>
-                                    <pre>&lt;html&gt;<br>  &lt;head&gt;<br>    &lt;meta http-equiv=&quot;Content-Type&quot; content=&quot;text/html;charset=ISO-8859-1&quot;/&gt;<br>    &lt;title&gt;Error 404 &lt;/title&gt;<br>  &lt;/head&gt;<br>  &lt;body&gt;<br>    &lt;h2&gt;HTTP ERROR: 404&lt;/h2&gt;<br>    &lt;p&gt;Problem accessing /kafka-music/charts/genre/rap. Reason:<br>&lt;/p&gt;<br>    &lt;pre&gt;    Not Found&lt;/pre&gt;<br>    &lt;hr/&gt;<br>    &lt;i&gt;<br>      &lt;small&gt;Powered by Jetty://&lt;/small&gt;<br>    &lt;/i&gt;<br>  &lt;/body&gt;<br>&lt;/html&gt;</pre>
+                                    <pre>&lt;html&gt;<br>  &lt;head&gt;<br>    &lt;meta http-equiv=&quot;Content-Type&quot; content=&quot;text/html;charset=ISO-8859-1&quot;/&gt;<br>    &lt;title&gt;Error 404 &lt;/title&gt;<br>  &lt;/head&gt;<br>  &lt;body&gt;<br>    &lt;h2&gt;HTTP ERROR: 404&lt;/h2&gt;<br>    &lt;p&gt;Problem accessing /kafka-music/song/13. Reason:<br>&lt;/p&gt;<br>    &lt;pre&gt;    Not Found&lt;/pre&gt;<br>    &lt;hr/&gt;<br>    &lt;i&gt;<br>      &lt;small&gt;Powered by Jetty://&lt;/small&gt;<br>    &lt;/i&gt;<br>  &lt;/body&gt;<br>&lt;/html&gt;</pre>
                                     <h5>Response Cookies</h5>
                                     <pre></pre>
                             </div>
@@ -469,7 +469,7 @@ so that I can know the songs that belong to a genre
                     <td>
                         <div class="step-description">
                             <span class="nested-group-step">
-                                Then I can see that there are no songs that belong to this genre
+                                Then I can not see the song that belong to that id
                             </span>
 
                         </div>
@@ -484,7 +484,7 @@ so that I can know the songs that belong to a genre
                 <tr class="test-SUCCESS">
                     <td colspan="2"></td>
                     <td width="100"><span class="top-level-step"><em>SUCCESS</em></span></td>
-                    <td width="100"><span class="top-level-step"><em>0.91s</em></span></td>
+                    <td width="100"><span class="top-level-step"><em>0.89s</em></span></td>
                 </tr>
 
             </table>
