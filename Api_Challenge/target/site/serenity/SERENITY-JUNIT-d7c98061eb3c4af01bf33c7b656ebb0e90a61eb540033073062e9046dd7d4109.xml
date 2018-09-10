@@ -1,1 +1,1 @@
-<?xml version="1.0" encoding="UTF-8"?><testsuite errors="0" failures="0" name="id" skipped="0" tests="14" time="2.21" timestamp="2018-08-31 09:12:00"><testcase name="Song request from existing id &quot;1&quot;"/><testcase name="Song request from not existing ID"/></testsuite>
+<?xml version="1.0" encoding="UTF-8"?><testsuite errors="0" failures="0" name="id" skipped="0" tests="14" time="3.31" timestamp="2018-09-07 05:55:30"><testcase name="Song request from existing ID &quot;1&quot;"/><testcase name="Song request from not existing ID &quot;0&quot;"/></testsuite>

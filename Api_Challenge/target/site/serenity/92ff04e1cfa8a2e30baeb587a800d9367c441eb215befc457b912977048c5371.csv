@@ -1,0 +1,3 @@
+"Story","Title","Result","Date","Stability","Duration (s)"
+"genre","Songs from existent genre","SUCCESS","2018-09-06T16:00:49.601-05:00[America/Bogota]","0.0","14.87"
+"genre","Songs from non existent genre","SUCCESS","2018-09-06T16:01:04.477-05:00[America/Bogota]","0.0","0.9"

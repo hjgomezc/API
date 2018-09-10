@@ -1,0 +1,7 @@
+"Story","Title","Result","Date","Stability","Duration (s)"
+"genre","Songs from existent genre","SUCCESS","2018-09-06T16:00:49.601-05:00[America/Bogota]","0.0","14.87"
+"genre","Songs from non existent genre","SUCCESS","2018-09-06T16:01:04.477-05:00[America/Bogota]","0.0","0.9"
+"id","Song request from existing ID ""1""","SUCCESS","2018-09-06T16:01:05.382-05:00[America/Bogota]","0.0","1.66"
+"id","Song request from not existing ID ""0""","SUCCESS","2018-09-06T16:01:07.048-05:00[America/Bogota]","0.0","1.14"
+"instances","See the instances","SUCCESS","2018-09-06T16:01:08.184-05:00[America/Bogota]","0.0","0.07"
+"top five","See the top five","SUCCESS","2018-09-06T16:01:08.259-05:00[America/Bogota]","0.0","0.05"

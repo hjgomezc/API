@@ -1,7 +1,54 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="d5ebcb99-2141-4a57-93d6-6d9fee1cbf2a" name="Default" comment="" />
+    <list default="true" id="d5ebcb99-2141-4a57-93d6-6d9fee1cbf2a" name="Default" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/kafkaApi/Entities/ProducerSong.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/kafkaApi/Entities/SongSerializer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/kafkaApi/steps/crudStep.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/resources/features/producerTest.feature" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Api_Challenge.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/kafkaApi/CRUD/KasfkaTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/kafkaApi/CRUD/KasfkaTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/kafkaApi/Entities/Song.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/kafkaApi/Entities/Song.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/kafkaApi/glue/genreStep.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/kafkaApi/glue/idSteps.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/kafkaApi/glue/instancesStep.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/kafkaApi/glue/topfiveStep.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/features/id.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/features/id.feature" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/features/instances.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/features/instances.feature" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/features/topFive.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/features/topFive.feature" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/serenity/3149350139452ec0afcc5f7a378c0e04d0640872604eb67a6263b6f215e5e6a2.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/serenity/3149350139452ec0afcc5f7a378c0e04d0640872604eb67a6263b6f215e5e6a2.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/serenity/5f4faffb2a851236fa1ab32d0cc40ca4ec6ba25de57f9779bea23d493ddb4b8d.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/site/serenity/5f4faffb2a851236fa1ab32d0cc40ca4ec6ba25de57f9779bea23d493ddb4b8d.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/serenity/5f4faffb2a851236fa1ab32d0cc40ca4ec6ba25de57f9779bea23d493ddb4b8d.json" beforeDir="false" afterPath="$PROJECT_DIR$/target/site/serenity/5f4faffb2a851236fa1ab32d0cc40ca4ec6ba25de57f9779bea23d493ddb4b8d.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/serenity/9298bb0e5fc4b41a7af8430ca747dd1d3d0b5a49babceff5817956d6a0f61c52.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/site/serenity/9298bb0e5fc4b41a7af8430ca747dd1d3d0b5a49babceff5817956d6a0f61c52.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/serenity/9298bb0e5fc4b41a7af8430ca747dd1d3d0b5a49babceff5817956d6a0f61c52.json" beforeDir="false" afterPath="$PROJECT_DIR$/target/site/serenity/9298bb0e5fc4b41a7af8430ca747dd1d3d0b5a49babceff5817956d6a0f61c52.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/serenity/SERENITY-JUNIT-3149350139452ec0afcc5f7a378c0e04d0640872604eb67a6263b6f215e5e6a2.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/serenity/SERENITY-JUNIT-5f4faffb2a851236fa1ab32d0cc40ca4ec6ba25de57f9779bea23d493ddb4b8d.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/site/serenity/SERENITY-JUNIT-5f4faffb2a851236fa1ab32d0cc40ca4ec6ba25de57f9779bea23d493ddb4b8d.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/serenity/SERENITY-JUNIT-d7c98061eb3c4af01bf33c7b656ebb0e90a61eb540033073062e9046dd7d4109.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/site/serenity/SERENITY-JUNIT-d7c98061eb3c4af01bf33c7b656ebb0e90a61eb540033073062e9046dd7d4109.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/serenity/SERENITY-JUNIT-de935e4b441cc2626a6dd3a77986d867e171a3f34cfb9b8c20740f7dbe6c8234.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/site/serenity/SERENITY-JUNIT-de935e4b441cc2626a6dd3a77986d867e171a3f34cfb9b8c20740f7dbe6c8234.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/serenity/SERENITY-JUNIT-f1c3419a23687f4231afac6134dc95cb2dd81080bebc580e8c6bafa65f2d2c5a.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/serenity/SERENITY-JUNIT-f40b177e6dde744ba47efc620f0c437aa8f1dad66eaa79ddb4a94867ea8c5306.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/serenity/d7c98061eb3c4af01bf33c7b656ebb0e90a61eb540033073062e9046dd7d4109.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/site/serenity/d7c98061eb3c4af01bf33c7b656ebb0e90a61eb540033073062e9046dd7d4109.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/serenity/d7c98061eb3c4af01bf33c7b656ebb0e90a61eb540033073062e9046dd7d4109.json" beforeDir="false" afterPath="$PROJECT_DIR$/target/site/serenity/d7c98061eb3c4af01bf33c7b656ebb0e90a61eb540033073062e9046dd7d4109.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/serenity/de935e4b441cc2626a6dd3a77986d867e171a3f34cfb9b8c20740f7dbe6c8234.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/site/serenity/de935e4b441cc2626a6dd3a77986d867e171a3f34cfb9b8c20740f7dbe6c8234.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/serenity/de935e4b441cc2626a6dd3a77986d867e171a3f34cfb9b8c20740f7dbe6c8234.json" beforeDir="false" afterPath="$PROJECT_DIR$/target/site/serenity/de935e4b441cc2626a6dd3a77986d867e171a3f34cfb9b8c20740f7dbe6c8234.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/serenity/f1c3419a23687f4231afac6134dc95cb2dd81080bebc580e8c6bafa65f2d2c5a.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/serenity/f1c3419a23687f4231afac6134dc95cb2dd81080bebc580e8c6bafa65f2d2c5a.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/serenity/f40b177e6dde744ba47efc620f0c437aa8f1dad66eaa79ddb4a94867ea8c5306.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/serenity/f40b177e6dde744ba47efc620f0c437aa8f1dad66eaa79ddb4a94867ea8c5306.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/serenity/fe94f9a9b44732d4372a353f5be958eddaebd5b82e2440d1c32312017082a1c6.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/serenity/fe94f9a9b44732d4372a353f5be958eddaebd5b82e2440d1c32312017082a1c6.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/features/id.feature" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/features/id.feature" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/features/instances.feature" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/features/instances.feature" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/features/topFive.feature" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/features/topFive.feature" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/kafkaApi/glue/genreStep.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/kafkaApi/glue/idSteps.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/kafkaApi/glue/instancesStep.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/kafkaApi/glue/topfiveStep.class" beforeDir="false" />
+    </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -16,35 +63,17 @@
       <file leaf-file-name="pom.xml" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/pom.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="340">
-              <caret line="32" column="21" selection-start-line="32" selection-start-column="21" selection-end-line="32" selection-end-column="21" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="JsonHelper.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/kafkaApi/Entities/JsonHelper.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="170">
-              <caret line="14" selection-start-line="14" selection-end-line="14" />
+            <state relative-caret-position="4012">
+              <caret line="236" column="28" selection-start-line="236" selection-start-column="28" selection-end-line="236" selection-end-column="28" />
             </state>
           </provider>
         </entry>
       </file>
       <file leaf-file-name="genreStep.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/kafkaApi/glue/genreStep.java">
+        <entry file="file://$PROJECT_DIR$/src/test/java/kafkaApi/steps/genreStep.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="312">
-              <caret line="45" column="1" selection-start-line="45" selection-start-column="1" selection-end-line="45" selection-end-column="1" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="KasfkaTest.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/kafkaApi/CRUD/KasfkaTest.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="152">
-              <caret line="35" lean-forward="true" selection-start-line="35" selection-end-line="35" />
+            <state relative-caret-position="748">
+              <caret line="46" lean-forward="true" selection-start-line="46" selection-end-line="46" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -52,15 +81,126 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="instancesStep.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/test/java/kafkaApi/glue/instancesStep.java">
+      <file leaf-file-name="ProducerSong.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/java/kafkaApi/Entities/ProducerSong.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="204">
-              <caret line="37" column="71" lean-forward="true" selection-start-line="37" selection-start-column="8" selection-end-line="37" selection-end-column="71" />
+              <caret line="34" column="37" selection-start-line="34" selection-start-column="37" selection-end-line="34" selection-end-column="37" />
               <folding>
-                <element signature="e#1154#1155#0" expanded="true" />
-                <element signature="e#1232#1233#0" expanded="true" />
+                <element signature="imports" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="producerTest.feature" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/resources/features/producerTest.feature">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="102">
+              <caret line="6" column="20" lean-forward="true" selection-start-line="6" selection-start-column="20" selection-end-line="6" selection-end-column="20" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="JsonHelper.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/java/kafkaApi/Entities/JsonHelper.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="34">
+              <caret line="14" selection-start-line="14" selection-end-line="14" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="crudStep.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/java/kafkaApi/steps/crudStep.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="170">
+              <caret line="10" column="24" lean-forward="true" selection-start-line="10" selection-start-column="24" selection-end-line="10" selection-end-column="24" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Tests.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/test/java/kafkaApi/features/Tests.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="170">
+              <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Song.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/java/kafkaApi/Entities/Song.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-1476">
+              <caret line="334" column="43" lean-forward="true" selection-start-line="334" selection-start-column="43" selection-end-line="334" selection-end-column="43" />
+              <folding>
+                <element signature="e#870#871#0" expanded="true" />
+                <element signature="e#900#901#0" expanded="true" />
+                <element signature="e#1745#1746#0" expanded="true" />
+                <element signature="e#1775#1776#0" expanded="true" />
+                <element signature="e#3129#3130#0" expanded="true" />
+                <element signature="e#3154#3155#0" expanded="true" />
+                <element signature="e#3303#3304#0" expanded="true" />
+                <element signature="e#3334#3335#0" expanded="true" />
+                <element signature="e#3436#3437#0" expanded="true" />
+                <element signature="e#3464#3465#0" expanded="true" />
+                <element signature="e#3621#3622#0" expanded="true" />
+                <element signature="e#3655#3656#0" expanded="true" />
+                <element signature="e#3759#3760#0" expanded="true" />
+                <element signature="e#3788#3789#0" expanded="true" />
+                <element signature="e#3947#3948#0" expanded="true" />
+                <element signature="e#3982#3983#0" expanded="true" />
+                <element signature="e#4082#4083#0" expanded="true" />
+                <element signature="e#4109#4110#0" expanded="true" />
+                <element signature="e#4264#4265#0" expanded="true" />
+                <element signature="e#4297#4298#0" expanded="true" />
+                <element signature="e#4399#4400#0" expanded="true" />
+                <element signature="e#4427#4428#0" expanded="true" />
+                <element signature="e#4584#4585#0" expanded="true" />
+                <element signature="e#4618#4619#0" expanded="true" />
+                <element signature="e#4721#4722#0" expanded="true" />
+                <element signature="e#4762#4763#0" expanded="true" />
+                <element signature="e#4914#4915#0" expanded="true" />
+                <element signature="e#4960#4961#0" expanded="true" />
+                <element signature="e#5110#5111#0" expanded="true" />
+                <element signature="e#5156#5157#0" expanded="true" />
+                <element signature="e#8146#8147#0" expanded="true" />
+                <element signature="e#8179#8180#0" expanded="true" />
+                <element signature="e#8553#8554#0" expanded="true" />
+                <element signature="e#8602#8603#0" expanded="true" />
+                <element signature="e#9342#9343#0" expanded="true" />
+                <element signature="e#9391#9392#0" expanded="true" />
+                <element signature="e#9728#9729#0" expanded="true" />
+                <element signature="e#9765#9766#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="KasfkaTest.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/java/kafkaApi/CRUD/KasfkaTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="238">
+              <caret line="14" selection-start-line="14" selection-end-line="14" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ExecutableTests.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/java/kafkaApi/ExecutableTests.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="34">
+              <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
             </state>
           </provider>
         </entry>
@@ -74,12 +214,21 @@
       </list>
     </option>
   </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>sere</find>
+      <find>jack</find>
+    </findStrings>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
   <component name="GradleLocalSettings">
     <option name="projectSyncType">
       <map>
-        <entry key="$USER_HOME$/Desktop/Clases/Class/designpatternsworkshop" value="PREVIEW" />
-        <entry key="$USER_HOME$/Desktop/Streams/StreamsChallenge" value="PREVIEW" />
-        <entry key="$USER_HOME$/Desktop/StreamsChallenge-master" value="PREVIEW" />
+        <entry key="$PROJECT_DIR$/../../Clases/Class/designpatternsworkshop" value="PREVIEW" />
+        <entry key="$PROJECT_DIR$/../../Streams/StreamsChallenge" value="PREVIEW" />
+        <entry key="$PROJECT_DIR$/../../StreamsChallenge-master" value="PREVIEW" />
       </map>
     </option>
   </component>
@@ -92,9 +241,7 @@
         <option value="$PROJECT_DIR$/src/test/resources/features/genre.feature" />
         <option value="$PROJECT_DIR$/src/test/java/kafkaApi/glue/idStep.java" />
         <option value="$PROJECT_DIR$/src/test/java/idSteps.java" />
-        <option value="$PROJECT_DIR$/src/test/resources/features/topFive.feature" />
         <option value="$PROJECT_DIR$/src/test/java/kafkaApi/features/Tests.java" />
-        <option value="$PROJECT_DIR$/src/test/java/kafkaApi/Entities/Song.java" />
         <option value="$PROJECT_DIR$/src/test/java/kafkaApi/Entities/JsonHelper.java" />
         <option value="$PROJECT_DIR$/src/test/resources/topFive.feature" />
         <option value="$PROJECT_DIR$/src/test/java/topdiveStep.java" />
@@ -102,14 +249,25 @@
         <option value="$PROJECT_DIR$/src/test/java/instancesStep.java" />
         <option value="$PROJECT_DIR$/src/test/java/kafkaApi/glue/genreStep.java" />
         <option value="$PROJECT_DIR$/src/test/java/kafkaApi/glue/topfiveStep.java" />
-        <option value="$PROJECT_DIR$/src/test/java/kafkaApi/glue/instancesStep.java" />
         <option value="$PROJECT_DIR$/src/test/java/kafkaApi/glue/idSteps.java" />
-        <option value="$PROJECT_DIR$/src/test/resources/features/instances.feature" />
-        <option value="$PROJECT_DIR$/src/test/resources/features/id.feature" />
         <option value="$PROJECT_DIR$/src/test/java/kafkaApi/CRUD/CRUD_Test.java" />
         <option value="$PROJECT_DIR$/src/test/java/kafkaApi/CRUD/Producer.java" />
+        <option value="$PROJECT_DIR$/src/test/resources/features/instances.feature" />
+        <option value="$PROJECT_DIR$/src/test/java/kafkaApi/glue/instancesStep.java" />
+        <option value="$PROJECT_DIR$/src/test/resources/features/topFive.feature" />
+        <option value="$PROJECT_DIR$/src/test/resources/features/id.feature" />
+        <option value="$PROJECT_DIR$/src/test/java/kafkaApi/Entities/SongSerializer.java" />
+        <option value="$PROJECT_DIR$/src/test/java/kafkaApi/Entities/Producer.java" />
         <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/src/test/java/kafkaApi/Entities/ProducerSong.java" />
+        <option value="$PROJECT_DIR$/src/test/java/CRUD.java" />
+        <option value="$PROJECT_DIR$/src/test/java/kafkaApi/steps/CRUD.java" />
+        <option value="$PROJECT_DIR$/src/test/java/kafkaApi/steps/idSteps.java" />
+        <option value="$PROJECT_DIR$/src/test/java/crudStep.java" />
+        <option value="$PROJECT_DIR$/src/test/java/kafkaApi/steps/crudStep.java" />
         <option value="$PROJECT_DIR$/src/test/java/kafkaApi/CRUD/KasfkaTest.java" />
+        <option value="$PROJECT_DIR$/src/test/resources/features/producerTest.feature" />
+        <option value="$PROJECT_DIR$/src/test/java/kafkaApi/Entities/Song.java" />
       </list>
     </option>
   </component>
@@ -120,16 +278,51 @@
       </MavenImportingSettings>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="-11" />
-    <option name="width" value="980" />
-    <option name="height" value="1031" />
+  <component name="MavenProjectNavigator">
+    <treeState>
+      <expand>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="Api_Challenge" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+        </path>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="Api_Challenge" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+          <item name="Lifecycle" type="58874e2:MavenProjectsStructure$LifecycleNode" />
+        </path>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="Api_Challenge" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+          <item name="Plugins" type="7aea1407:MavenProjectsStructure$PluginsNode" />
+        </path>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="Api_Challenge" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+          <item name="Plugins" type="7aea1407:MavenProjectsStructure$PluginsNode" />
+          <item name="serenity" type="36feed69:MavenProjectsStructure$PluginNode" />
+        </path>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="Api_Challenge" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+          <item name="Dependencies" type="f4be9f2a:MavenProjectsStructure$DependenciesNode" />
+        </path>
+      </expand>
+      <select />
+    </treeState>
   </component>
+  <component name="ProjectFrameBounds" extendedState="7">
+    <option name="x" value="-11" />
+    <option name="y" value="-11" />
+    <option name="width" value="1943" />
+    <option name="height" value="1043" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="AndroidView" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -203,7 +396,7 @@
               <item name="test" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="kafkaApi" type="462c0819:PsiDirectoryNode" />
-              <item name="glue" type="462c0819:PsiDirectoryNode" />
+              <item name="steps" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="Api_Challenge" type="b2602c69:ProjectViewProjectNode" />
@@ -226,11 +419,10 @@
       </pane>
       <pane id="Scope" />
       <pane id="PackagesPane" />
-      <pane id="AndroidView" />
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/test/java/kafkaApi/steps" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.0" />
@@ -261,7 +453,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.KasfkaTest">
+  <component name="RunManager" selected="JUnit.Tests">
     <configuration name="KasfkaTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="kafkaApi.CRUD.KasfkaTest" />
       <module name="Api_Challenge" />
@@ -343,8 +535,8 @@
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.KasfkaTest" />
         <item itemvalue="JUnit.Tests" />
+        <item itemvalue="Application.KasfkaTest" />
       </list>
     </recent_temporary>
   </component>
@@ -362,27 +554,6 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="Tests - 2018.08.24 at 19h 15m 59s.xml">
-      <configuration name="Tests" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="Tests - 2018.08.27 at 09h 53m 41s.xml">
-      <configuration name="Tests" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="Tests - 2018.08.28 at 08h 49m 01s.xml">
-      <configuration name="Tests" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="Tests - 2018.08.28 at 08h 53m 56s.xml">
-      <configuration name="Tests" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="Tests - 2018.08.28 at 16h 14m 13s.xml">
-      <configuration name="Tests" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="Tests - 2018.08.31 at 09h 06m 23s.xml">
-      <configuration name="Tests" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="Tests - 2018.08.31 at 09h 08m 16s.xml">
-      <configuration name="Tests" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="Tests - 2018.08.31 at 09h 08m 44s.xml">
       <configuration name="Tests" configurationId="JUnit" />
     </history-entry>
@@ -392,6 +563,27 @@
     <history-entry file="Tests - 2018.08.31 at 09h 12m 04s.xml">
       <configuration name="Tests" configurationId="JUnit" />
     </history-entry>
+    <history-entry file="Tests - 2018.09.06 at 09h 26m 17s.xml">
+      <configuration name="Tests" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="Tests - 2018.09.06 at 09h 31m 22s.xml">
+      <configuration name="Tests" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="Tests - 2018.09.06 at 11h 33m 56s.xml">
+      <configuration name="Tests" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="Tests - 2018.09.06 at 16h 01m 09s.xml">
+      <configuration name="Tests" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="Tests - 2018.09.07 at 17h 55m 35s.xml">
+      <configuration name="Tests" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="Tests - 2018.09.10 at 15h 01m 05s.xml">
+      <configuration name="Tests" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="Tests - 2018.09.10 at 15h 08m 48s.xml">
+      <configuration name="Tests" configurationId="JUnit" />
+    </history-entry>
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1295" height="695" extended-state="6" />
@@ -399,23 +591,23 @@
     <layout>
       <window_info anchor="right" id="Palette" order="3" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info id="simpleUML" order="2" />
-      <window_info anchor="bottom" id="Messages" order="7" sideWeight="0.49959514" weight="0.32920355" />
-      <window_info anchor="right" id="Palette&#9;" order="3" />
-      <window_info id="Image Layers" order="2" />
-      <window_info anchor="right" id="Capture Analysis" order="3" />
-      <window_info anchor="bottom" id="Event Log" order="7" sideWeight="0.11659919" side_tool="true" visible="true" weight="0.339823" />
-      <window_info anchor="right" id="Maven Projects" order="3" />
-      <window_info anchor="bottom" id="Version Control" order="7" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.8834008" visible="true" weight="0.339823" />
+      <window_info id="simpleUML" order="7" />
+      <window_info anchor="bottom" id="Messages" order="9" sideWeight="0.49959514" weight="0.32920355" />
+      <window_info anchor="right" id="Palette&#9;" order="7" />
+      <window_info id="Image Layers" order="3" />
+      <window_info anchor="right" id="Capture Analysis" order="4" />
+      <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.11417004" side_tool="true" visible="true" weight="0.097345136" />
+      <window_info anchor="right" id="Maven Projects" order="6" weight="0.17732793" />
+      <window_info anchor="bottom" id="Version Control" order="8" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.88583" visible="true" weight="0.097345136" />
       <window_info anchor="bottom" id="Terminal" order="7" weight="0.32920355" />
-      <window_info id="Capture Tool" order="2" />
-      <window_info id="Designer" order="2" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2874494" />
+      <window_info id="Capture Tool" order="6" />
+      <window_info id="Designer" order="4" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.22672065" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
-      <window_info id="UI Designer" order="2" />
-      <window_info anchor="right" id="Theme Preview" order="3" />
+      <window_info id="UI Designer" order="5" />
+      <window_info anchor="right" id="Theme Preview" order="5" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -426,33 +618,33 @@
       <window_info anchor="bottom" id="Find" order="1" />
     </layout>
     <layout-to-restore>
-      <window_info anchor="right" id="Palette" order="0" />
-      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="7" weight="0.25" />
-      <window_info anchor="right" id="Capture Analysis" order="1" />
-      <window_info anchor="bottom" id="Version Control" order="2" show_stripe_button="false" />
-      <window_info anchor="right" id="Theme Preview" order="2" />
-      <window_info content_ui="combo" id="Project" order="6" visible="true" weight="0.24939272" />
-      <window_info id="Structure" order="7" side_tool="true" weight="0.25" />
-      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="5" type="SLIDING" weight="0.4" />
-      <window_info anchor="right" id="Ant Build" order="6" weight="0.25" />
-      <window_info anchor="bottom" id="TODO" order="10" />
-      <window_info active="true" anchor="bottom" id="Run" order="6" visible="true" weight="0.45132744" />
-      <window_info id="Image Layers" order="1" />
-      <window_info id="Designer" order="2" />
-      <window_info id="UI Designer" order="3" />
-      <window_info anchor="bottom" id="Find" order="5" />
-      <window_info id="simpleUML" order="5" />
-      <window_info anchor="bottom" id="Debug" order="7" weight="0.4" />
-      <window_info anchor="right" id="Palette&#9;" order="3" />
-      <window_info anchor="bottom" id="Terminal" order="0" />
-      <window_info anchor="bottom" id="Event Log" order="1" side_tool="true" />
-      <window_info anchor="bottom" id="Inspection" order="9" weight="0.4" />
-      <window_info anchor="bottom" id="Cvs" order="8" weight="0.25" />
-      <window_info id="Capture Tool" order="4" />
-      <window_info anchor="bottom" id="Message" order="4" />
-      <window_info anchor="bottom" id="Messages" order="3" />
-      <window_info anchor="right" id="Maven Projects" order="4" />
-      <window_info id="Favorites" order="0" side_tool="true" />
+      <window_info anchor="right" id="Palette" order="3" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Capture Analysis" order="4" />
+      <window_info anchor="bottom" id="Version Control" order="9" />
+      <window_info anchor="right" id="Theme Preview" order="5" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.22092116" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.88502026" weight="0.02300885" />
+      <window_info id="Image Layers" order="3" />
+      <window_info id="Designer" order="4" />
+      <window_info id="UI Designer" order="5" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="right" id="Palette&#9;" order="6" />
+      <window_info anchor="bottom" id="Terminal" order="7" weight="0.32920355" />
+      <window_info anchor="bottom" id="Event Log" order="8" sideWeight="0.11497976" side_tool="true" visible="true" weight="0.027597403" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info id="Favorites" order="2" side_tool="true" />
+      <window_info id="Capture Tool" order="6" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Messages" order="10" sideWeight="0.49959514" weight="0.32920355" />
+      <window_info anchor="right" id="Maven Projects" order="7" visible="true" weight="0.17798595" />
+      <window_info id="simpleUML" order="7" />
     </layout-to-restore>
   </component>
   <component name="VcsContentAnnotationSettings">
@@ -464,13 +656,27 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/src/test/java/kafkaApi/CRUD/KasfkaTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="476">
+          <caret line="35" lean-forward="true" selection-start-line="35" selection-end-line="35" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/kafkaApi/steps/instancesStep.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="425">
+          <caret line="37" column="71" lean-forward="true" selection-start-line="37" selection-start-column="8" selection-end-line="37" selection-end-column="71" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/kafkaApi/features/Tests.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="153">
           <caret line="11" lean-forward="true" selection-start-line="11" selection-end-line="11" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -495,14 +701,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/kafkaApi/glue/instancesStep.java">
+    <entry file="file://$PROJECT_DIR$/src/test/java/kafkaApi/steps/instancesStep.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="425">
           <caret line="37" column="56" selection-start-line="37" selection-start-column="56" selection-end-line="37" selection-end-column="56" />
-          <folding>
-            <element signature="e#1154#1155#0" expanded="true" />
-            <element signature="e#1232#1233#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -517,9 +719,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="187">
           <caret line="13" lean-forward="true" selection-start-line="13" selection-end-line="13" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -537,14 +736,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/kafkaApi/glue/instancesStep.java">
+    <entry file="file://$PROJECT_DIR$/src/test/java/kafkaApi/steps/instancesStep.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="425">
           <caret line="37" column="56" selection-start-line="37" selection-start-column="56" selection-end-line="37" selection-end-column="56" />
-          <folding>
-            <element signature="e#1154#1155#0" expanded="true" />
-            <element signature="e#1232#1233#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -559,20 +754,13 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="119">
           <caret line="7" column="27" selection-start-line="7" selection-start-column="27" selection-end-line="7" selection-end-column="27" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/kafkaApi/glue/instancesStep.java">
+    <entry file="file://$PROJECT_DIR$/src/test/java/kafkaApi/steps/instancesStep.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="442">
           <caret line="37" column="56" selection-start-line="37" selection-start-column="56" selection-end-line="37" selection-end-column="56" />
-          <folding>
-            <element signature="e#1154#1155#0" expanded="true" />
-            <element signature="e#1232#1233#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -594,20 +782,13 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="119">
           <caret line="7" column="27" selection-start-line="7" selection-start-column="27" selection-end-line="7" selection-end-column="27" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/kafkaApi/glue/instancesStep.java">
+    <entry file="file://$PROJECT_DIR$/src/test/java/kafkaApi/steps/instancesStep.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="629">
           <caret line="37" column="56" selection-start-line="37" selection-start-column="56" selection-end-line="37" selection-end-column="56" />
-          <folding>
-            <element signature="e#1154#1155#0" expanded="true" />
-            <element signature="e#1232#1233#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -629,20 +810,13 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="85">
           <caret line="7" column="27" selection-start-line="7" selection-start-column="27" selection-end-line="7" selection-end-column="27" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/kafkaApi/glue/instancesStep.java">
+    <entry file="file://$PROJECT_DIR$/src/test/java/kafkaApi/steps/instancesStep.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="629">
           <caret line="37" column="56" selection-start-line="37" selection-start-column="56" selection-end-line="37" selection-end-column="56" />
-          <folding>
-            <element signature="e#1154#1155#0" expanded="true" />
-            <element signature="e#1232#1233#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -668,30 +842,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/resources/features/topFive.feature">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="11" lean-forward="true" selection-start-line="11" selection-end-line="11" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/kafkaApi/features/Tests.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="11" selection-start-line="11" selection-end-line="11" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/resources/features/genre.feature">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="476">
-          <caret line="28" column="16" lean-forward="true" selection-start-line="28" selection-start-column="16" selection-end-line="28" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://$MAVEN_REPOSITORY$/io/rest-assured/rest-assured/3.0.5/rest-assured-3.0.5.jar!/io/restassured/specification/RequestSpecification.class">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="102">
@@ -699,86 +849,229 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/resources/features/id.feature">
+    <entry file="file://$PROJECT_DIR$/src/test/java/kafkaApi/steps/instancesStep.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="204">
-          <caret line="12" column="11" lean-forward="true" selection-start-line="12" selection-start-column="11" selection-end-line="12" selection-end-column="11" />
+        <state relative-caret-position="306">
+          <caret line="30" column="39" selection-start-line="30" selection-start-column="39" selection-end-line="30" selection-end-column="39" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/kafkaApi/glue/idSteps.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="289">
-          <caret line="56" column="60" lean-forward="true" selection-start-line="56" selection-start-column="60" selection-end-line="56" selection-end-column="60" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/kafkaApi/glue/topfiveStep.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="176">
-          <caret line="34" column="100" lean-forward="true" selection-start-line="34" selection-start-column="8" selection-end-line="34" selection-end-column="100" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/kafkaApi/ExecutableTests.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="4" column="4" selection-start-line="4" selection-start-column="4" selection-end-line="6" selection-end-column="5" />
-        </state>
-      </provider>
+    <entry file="file://$PROJECT_DIR$/target/site/serenity/index.html">
+      <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/resources/features/instances.feature">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="204">
-          <caret line="12" lean-forward="true" selection-start-line="12" selection-end-line="12" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/kafkaApi/Entities/Song.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="23">
-          <caret line="15" column="24" selection-start-line="15" selection-start-column="24" selection-end-line="15" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/kafkaApi/Entities/JsonHelper.java">
-      <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="170">
-          <caret line="14" selection-start-line="14" selection-end-line="14" />
+          <caret line="10" column="24" selection-start-line="10" selection-start-column="24" selection-end-line="10" selection-end-column="24" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/kafkaApi/glue/genreStep.java">
+    <entry file="file://$PROJECT_DIR$/src/test/resources/features/genre.feature">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="312">
-          <caret line="45" column="1" selection-start-line="45" selection-start-column="1" selection-end-line="45" selection-end-column="1" />
+        <state relative-caret-position="136">
+          <caret line="8" selection-start-line="8" selection-end-line="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/kafkaApi/steps/topfiveStep.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="22" column="35" selection-start-line="22" selection-start-column="35" selection-end-line="22" selection-end-column="35" />
+          <folding>
+            <element signature="e#701#702#0" expanded="true" />
+            <element signature="e#769#770#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/resources/features/topFive.feature">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="12" selection-start-line="12" selection-end-line="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/kafkaApi/Entities/SongSerializer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="51">
+          <caret line="3" column="16" selection-start-line="3" selection-start-column="16" selection-end-line="3" selection-end-column="16" />
+          <folding>
+            <element signature="e#594#595#0" expanded="true" />
+            <element signature="e#643#644#0" expanded="true" />
+            <element signature="e#701#702#0" expanded="true" />
+            <element signature="e#756#757#0" expanded="true" />
+            <element signature="e#919#949#0" expanded="true" />
+            <element signature="e#1276#1277#0" expanded="true" />
+            <element signature="e#1329#1330#0" expanded="true" />
+            <element signature="e#1370#1371#0" expanded="true" />
+            <element signature="e#1399#1400#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/kafkaApi/steps/CRUD.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/kafkaApi/steps/crudStep.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="4" column="11" selection-start-line="4" selection-start-column="11" selection-end-line="4" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/kafkaApi/steps/crudStep.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="9" column="1" lean-forward="true" selection-start-line="9" selection-start-column="1" selection-end-line="9" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/kafkaApi/steps/idSteps.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="444">
+          <caret line="42" column="58" lean-forward="true" selection-start-line="42" selection-start-column="58" selection-end-line="42" selection-end-column="58" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/crudStep.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="4" column="40" selection-start-line="4" selection-start-column="15" selection-end-line="4" selection-end-column="40" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/resources/features/id.feature">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="561">
+          <caret line="33" column="12" selection-start-line="33" selection-start-column="12" selection-end-line="33" selection-end-column="12" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="340">
-          <caret line="32" column="21" selection-start-line="32" selection-start-column="21" selection-end-line="32" selection-end-column="21" />
+        <state relative-caret-position="4012">
+          <caret line="236" column="28" selection-start-line="236" selection-start-column="28" selection-end-line="236" selection-end-column="28" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/kafkaApi/CRUD/KasfkaTest.java">
+    <entry file="file://$PROJECT_DIR$/src/test/java/kafkaApi/steps/genreStep.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="152">
-          <caret line="35" lean-forward="true" selection-start-line="35" selection-end-line="35" />
+        <state relative-caret-position="748">
+          <caret line="46" lean-forward="true" selection-start-line="46" selection-end-line="46" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/kafkaApi/glue/instancesStep.java">
+    <entry file="file://$PROJECT_DIR$/src/test/java/kafkaApi/ExecutableTests.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/kafkaApi/CRUD/KasfkaTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="238">
+          <caret line="14" selection-start-line="14" selection-end-line="14" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/kafkaApi/Entities/JsonHelper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="14" selection-start-line="14" selection-end-line="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/resources/features/producerTest.feature">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="6" column="20" lean-forward="true" selection-start-line="6" selection-start-column="20" selection-end-line="6" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/kafkaApi/Entities/Song.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1476">
+          <caret line="334" column="43" lean-forward="true" selection-start-line="334" selection-start-column="43" selection-end-line="334" selection-end-column="43" />
+          <folding>
+            <element signature="e#870#871#0" expanded="true" />
+            <element signature="e#900#901#0" expanded="true" />
+            <element signature="e#1745#1746#0" expanded="true" />
+            <element signature="e#1775#1776#0" expanded="true" />
+            <element signature="e#3129#3130#0" expanded="true" />
+            <element signature="e#3154#3155#0" expanded="true" />
+            <element signature="e#3303#3304#0" expanded="true" />
+            <element signature="e#3334#3335#0" expanded="true" />
+            <element signature="e#3436#3437#0" expanded="true" />
+            <element signature="e#3464#3465#0" expanded="true" />
+            <element signature="e#3621#3622#0" expanded="true" />
+            <element signature="e#3655#3656#0" expanded="true" />
+            <element signature="e#3759#3760#0" expanded="true" />
+            <element signature="e#3788#3789#0" expanded="true" />
+            <element signature="e#3947#3948#0" expanded="true" />
+            <element signature="e#3982#3983#0" expanded="true" />
+            <element signature="e#4082#4083#0" expanded="true" />
+            <element signature="e#4109#4110#0" expanded="true" />
+            <element signature="e#4264#4265#0" expanded="true" />
+            <element signature="e#4297#4298#0" expanded="true" />
+            <element signature="e#4399#4400#0" expanded="true" />
+            <element signature="e#4427#4428#0" expanded="true" />
+            <element signature="e#4584#4585#0" expanded="true" />
+            <element signature="e#4618#4619#0" expanded="true" />
+            <element signature="e#4721#4722#0" expanded="true" />
+            <element signature="e#4762#4763#0" expanded="true" />
+            <element signature="e#4914#4915#0" expanded="true" />
+            <element signature="e#4960#4961#0" expanded="true" />
+            <element signature="e#5110#5111#0" expanded="true" />
+            <element signature="e#5156#5157#0" expanded="true" />
+            <element signature="e#8146#8147#0" expanded="true" />
+            <element signature="e#8179#8180#0" expanded="true" />
+            <element signature="e#8553#8554#0" expanded="true" />
+            <element signature="e#8602#8603#0" expanded="true" />
+            <element signature="e#9342#9343#0" expanded="true" />
+            <element signature="e#9391#9392#0" expanded="true" />
+            <element signature="e#9728#9729#0" expanded="true" />
+            <element signature="e#9765#9766#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/kafkaApi/steps/crudStep.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="10" column="24" lean-forward="true" selection-start-line="10" selection-start-column="24" selection-end-line="10" selection-end-column="24" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/kafkaApi/Entities/ProducerSong.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="204">
-          <caret line="37" column="71" lean-forward="true" selection-start-line="37" selection-start-column="8" selection-end-line="37" selection-end-column="71" />
+          <caret line="34" column="37" selection-start-line="34" selection-start-column="37" selection-end-line="34" selection-end-column="37" />
           <folding>
-            <element signature="e#1154#1155#0" expanded="true" />
-            <element signature="e#1232#1233#0" expanded="true" />
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/kafkaApi/features/Tests.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>

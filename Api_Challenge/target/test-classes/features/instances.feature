@@ -6,7 +6,7 @@ Feature: instances
   @HappyPath
   Scenario: See the instances
     Given that I want to search the instances
-    When I request the intances
+    When I request the instances
     Then I can see the funcionalities of the api
     And verify instances
 

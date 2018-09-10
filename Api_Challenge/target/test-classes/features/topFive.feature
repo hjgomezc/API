@@ -1,4 +1,4 @@
-Feature: topfive
+Feature: top five
   As a user
   I want to search the top five
   so that i can see the top five songs

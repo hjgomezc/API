@@ -1,1 +1,1 @@
-<?xml version="1.0" encoding="UTF-8"?><testsuite errors="0" failures="0" name="genre" skipped="0" tests="5" time="10.04" timestamp="2018-08-31 09:11:50"><testcase name="Songs from existent genre"/><testcase name="Songs from non existent genre"/></testsuite>
+<?xml version="1.0" encoding="UTF-8"?><testsuite errors="0" failures="0" name="genre" skipped="0" tests="5" time="9.63" timestamp="2018-09-10T15:08:33.361-05:00[America/Bogota]"><testcase name="Songs from existent genre"/><testcase name="Songs from non existent genre"/></testsuite>
